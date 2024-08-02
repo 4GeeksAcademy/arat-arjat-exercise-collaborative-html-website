@@ -1,3 +1,40 @@
 body{
-    background: #BDBDBD;
+    background: #05203E;
 }
+
+.container-fluid{
+    padding: 0%;
+}
+
+.navbar-brand img {
+    margin-right: 5px;
+  }
+
+nav {
+    background-color: #023E77;
+    font-size: 24px;
+    padding: 2%;
+    height: auto;
+}
+
+nav a {
+    color: #ccd4dd !important;
+}
+
+.card-hero{ 
+    height: 100vh;
+    border-radius: 0%;
+}
+
+.card-hero h5 {
+    margin-top: 6%;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #ccd4dd;
+    position: absolute; 
+    top: 53%; 
+    left: 60%; 
+    transform: translate(-50%, -50%); /* Center it using transform */
+}
+
